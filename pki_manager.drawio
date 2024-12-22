@@ -1,0 +1,79 @@
+<mxfile host="65bd71144e">
+    <diagram id="8z3nBQDeYgSsJINDSdgH" name="ページ1">
+        <mxGraphModel dx="1060" dy="563" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="2" value="root CA" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="120" y="80" width="120" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="21" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="3" target="18" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="22" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="3" target="19" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="3" value="中間CA" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="120" y="200" width="120" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="7" value="" style="endArrow=none;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" parent="1" source="3" target="2" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="520" y="350" as="sourcePoint"/>
+                        <mxPoint x="570" y="300" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="18" value="" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;size=15;" parent="1" vertex="1">
+                    <mxGeometry x="80" y="320" width="40" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="19" value="" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;size=15;" parent="1" vertex="1">
+                    <mxGeometry x="240" y="320" width="40" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="20" value="・・・" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+                    <mxGeometry x="150" y="325" width="60" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="24" value="証明書" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+                    <mxGeometry x="70" y="380" width="60" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="25" value="証明書" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+                    <mxGeometry x="230" y="380" width="60" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="28" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;CAの管理分担&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+                    <mxGeometry x="120" y="10" width="160" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="41" value="&lt;h1&gt;root CA&lt;/h1&gt;&lt;div&gt;管理部署: 新設部署&lt;/div&gt;&lt;div&gt;管理項目:&amp;nbsp;&lt;/div&gt;&lt;div&gt;- root証明書の作成、更新、失効&lt;/div&gt;&lt;div&gt;- 中間CAの作成、失効&lt;/div&gt;&lt;div&gt;責任者: 新設部署の開発管理者&lt;/div&gt;&lt;div&gt;※責任者=管理項目実行の承認者&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="1" vertex="1">
+                    <mxGeometry x="480" y="50" width="290" height="160" as="geometry"/>
+                </mxCell>
+                <mxCell id="46" value="&lt;h1&gt;中間CA&lt;/h1&gt;&lt;div&gt;管理部署: 各システムの開発所管部署&lt;/div&gt;&lt;div&gt;管理項目:&amp;nbsp;&lt;/div&gt;&lt;div&gt;- 中間CAの失効&lt;/div&gt;&lt;div&gt;- サーバ/クライアント証明書の作成、更新、失効&lt;/div&gt;&lt;div&gt;- 中間CAの証明書発行権限の追加、更新、削除&lt;br&gt;&lt;/div&gt;&lt;div&gt;責任者: 各システムの開発管理者&lt;/div&gt;&lt;div&gt;※責任者=管理項目実行の承認者&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="1" vertex="1">
+                    <mxGeometry x="480" y="240" width="320" height="170" as="geometry"/>
+                </mxCell>
+                <mxCell id="47" value="新設部署" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" parent="1" vertex="1">
+                    <mxGeometry x="380" y="70" width="30" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="49" value="各システム&lt;br&gt;開発所管部署" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" parent="1" vertex="1">
+                    <mxGeometry x="380" y="190" width="30" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="51" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;＜確認＞&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;- 中間CAの証明書発行権限の追加、更新、削除&lt;/span&gt;&lt;/div&gt;&lt;span style=&quot;&quot;&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;→これいる？&lt;/span&gt;&lt;/div&gt;&lt;/span&gt;" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;position2=0.35;" parent="1" vertex="1">
+                    <mxGeometry x="720" y="200" width="260" height="100" as="geometry"/>
+                </mxCell>
+                <mxCell id="52" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="47" target="2" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="490" y="300" as="sourcePoint"/>
+                        <mxPoint x="590" y="300" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="53" value="管理" style="edgeLabel;resizable=0;html=1;align=center;verticalAlign=middle;" parent="52" connectable="0" vertex="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="54" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="49" target="3" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="405" y="110" as="sourcePoint"/>
+                        <mxPoint x="250" y="110" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="55" value="管理" style="edgeLabel;resizable=0;html=1;align=center;verticalAlign=middle;" parent="54" connectable="0" vertex="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
